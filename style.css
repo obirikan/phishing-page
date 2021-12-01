@@ -1,0 +1,80 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+ background-image: linear-gradient(to right ,#3e5496, #6b8ae6);
+ margin: 0px;
+}
+.head1{
+    margin: 0px;
+    height: 50px;
+    opacity: 0.4px;;
+}
+.logo{
+    width: 150px;
+}
+.main{
+    margin-top: 80px;
+}
+blockquote{
+    margin-top: 10px;
+}
+.text{
+    margin-top: 120px;
+    color: white;
+}
+input{
+    width: 200px;
+    background-color: inherit;
+    height: 30px;
+    border:0.2px solid #3e5496 ;
+    border-radius: 5px;
+    color: ivory;
+}
+input[placeholder]{
+    text-align: center;
+    font: sans-serif;
+}
+.submit{
+    height: 30px;
+    width: 100px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right ,#3e5496, #6b8ae6);
+    border-style: none;
+    font-weight:bolder ;
+}
+.logo2{
+    width: 60px;
+    height: 60px;
+}
+small{
+    font-size: 10px;
+    color: blanchedalmond;
+}
+.box1{
+    margin: 0px;
+    margin-top: 40px;
+}
+.box2{
+    position: relative;
+    left: -100px;
+    right: 0px;
+    width: 50px;
+    height: 40px;
+    transition: all 2s;
+   /* animation-name: move;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-fill-mode: backwards; */
+   animation:move 2s infinite alternate;
+}
+
+ @keyframes move{
+    0%{left:100px;}
+    100%{right:5000px;}
+} 
+footer{
+    position: relative;
+    height: 50px;
+    top: 40px;
+}
